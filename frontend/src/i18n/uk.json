@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "explore": "Досліджувати",
+    "createEvent": "Створити подію",
+    "admin": "Адмін",
+    "signIn": "Увійти",
+    "joinFree": "Реєстрація",
+    "signOut": "Вийти"
+  },
+  "auth": {
+    "login": {
+      "title": "З поверненням",
+      "subtitle": "Увійдіть до вашого облікового запису",
+      "email": "Email",
+      "password": "Пароль",
+      "forgotPassword": "Забули пароль?",
+      "submit": "Увійти",
+      "submitting": "Вхід…",
+      "google": "Продовжити з Google",
+      "noAccount": "Немає акаунту?",
+      "createOne": "Створити безкоштовно"
+    },
+    "register": {
+      "title": "Створити акаунт",
+      "subtitle": "Приєднуйтесь до тисяч відвідувачів подій",
+      "firstName": "Ім'я",
+      "lastName": "Прізвище",
+      "email": "Email",
+      "password": "Пароль",
+      "passwordHint": "Мінімум 8 символів",
+      "submit": "Створити акаунт",
+      "submitting": "Створення акаунту…",
+      "hasAccount": "Вже маєте акаунт?",
+      "signIn": "Увійти"
+    },
+    "forgotPassword": {
+      "title": "Забули пароль?",
+      "subtitle": "Введіть email і ми надішлемо посилання для відновлення.",
+      "submit": "Надіслати посилання",
+      "submitting": "Надсилання…",
+      "sentTitle": "Посилання надіслано",
+      "sentBody": "Якщо акаунт з таким email існує, ви отримаєте лист незабаром.",
+      "backToLogin": "Назад до входу"
+    },
+    "resetPassword": {
+      "title": "Новий пароль",
+      "subtitle": "Виберіть надійний пароль для вашого акаунту.",
+      "newPassword": "Новий пароль",
+      "confirmPassword": "Підтвердіть пароль",
+      "submit": "Оновити пароль",
+      "submitting": "Оновлення…",
+      "passwordsMismatch": "Паролі не збігаються",
+      "invalidLink": "Недійсне посилання для відновлення.",
+      "requestNew": "Запросити нове"
+    }
+  },
+  "events": {
+    "explore": "Досліджувати",
+    "searchPlaceholder": "Пошук подій…",
+    "resultsCount": "{{count}} подій",
+    "noEvents": "Подій не знайдено",
+    "noEventsHint": "Спробуйте змінити фільтри або пошуковий запит.",
+    "formats": {
+      "conference": "Конференція",
+      "lecture": "Лекція",
+      "workshop": "Воркшоп",
+      "fest": "Фестиваль",
+      "other": "Інше"
+    },
+    "themes": {
+      "business": "Бізнес",
+      "politics": "Політика",
+      "psychology": "Психологія",
+      "technology": "Технології",
+      "science": "Наука",
+      "entertainment": "Розваги",
+      "other": "Інше"
+    },
+    "filters": {
+      "toggle": "Фільтри",
+      "format": "Формат",
+      "theme": "Тема",
+      "dateRange": "Діапазон дат",
+      "from": "Від",
+      "to": "До",
+      "clearAll": "Скинути фільтри",
+      "all": "Усі"
+    },
+    "sort": {
+      "dateSoonest": "Дата: найближчі",
+      "dateLatest": "Дата: найпізніші",
+      "priceLow": "Ціна: від низької",
+      "priceHigh": "Ціна: від високої",
+      "titleAZ": "Назва: А–Я"
+    },
+    "card": {
+      "free": "Безкоштовно",
+      "soldOut": "Квитки закінчились",
+      "ticketsLeft": "{{count}} залишилось"
+    },
+    "detail": {
+      "notFound": "Подію не знайдено.",
+      "about": "Про подію",
+      "comments": "Коментарі",
+      "attendees": "Відвідувачі",
+      "buyTicket": "Купити квиток",
+      "registerFree": "Зареєструватись безкоштовно",
+      "soldOut": "Квитки закінчились",
+      "processing": "Обробка…",
+      "promoCode": "Промокод",
+      "apply": "Застосувати",
+      "discountApplied": "Знижку {{percent}}% застосовано",
+      "promoInvalid": "Недійсний або прострочений код",
+      "similar": "Схожі події",
+      "organizer": "Організатор",
+      "followOrganizer": "+ Стежити за організатором",
+      "followingOrganizer": "Ви стежите",
+      "subscribeUpdates": "Підписатись на оновлення",
+      "subscribedUpdates": "Підписані на оновлення",
+      "ticketsLeft": "{{sold}} з {{max}} квитків",
+      "location": "Місце проведення",
+      "addToCalendar": "Додати до Календаря",
+      "commentPlaceholder": "Поділіться думками про цю подію…",
+      "postComment": "Надіслати",
+      "noComments": "Коментарів ще немає",
+      "noCommentsHint": "Будьте першим, хто залишить коментар.",
+      "noAttendees": "Відвідувачів ще немає",
+      "noAttendeesHint": "Придбайте квиток першим!"
+    }
+  },
+  "profile": {
+    "settings": "Налаштування профілю",
+    "myEvents": "Мої події",
+    "myTickets": "Мої квитки",
+    "notifications": "Сповіщення",
+    "myCompany": "Моя компанія",
+    "saveChanges": "Зберегти",
+    "saving": "Збереження…",
+    "updated": "Профіль оновлено",
+    "changePhoto": "Змінити фото",
+    "removePhoto": "Видалити фото",
+    "removePhotoConfirm": "Видалити поточне фото профілю?",
+    "showName": "Показувати моє ім'я у списку відвідувачів",
+    "markAllRead": "Позначити всі прочитаними",
+    "allCaughtUp": "Все прочитано!",
+    "noNotificationsYet": "Сповіщень ще немає.",
+    "noEventsYet": "Подій ще немає",
+    "noEventsHint": "Придбайте квиток, щоб побачити події тут.",
+    "noTicketsYet": "Квитків ще немає",
+    "noTicketsHint": "Придбайте квиток на подію, щоб побачити його тут.",
+    "resendEmail": "Надіслати на email",
+    "resendEmailSent": "Надіслано!",
+    "deleteEvent": "Видалити подію",
+    "deleteEventConfirm": "Видалити подію «{{title}}»? Це незворотно.",
+    "deleteCompany": "Видалити компанію",
+    "deleteCompanyConfirm": "Видалити компанію «{{name}}»? Всі події компанії також будуть видалені.",
+    "ticketStatus": {
+      "active": "Активний",
+      "used": "Використаний",
+      "cancelled": "Скасований",
+      "refunded": "Повернений"
+    },
+    "noCompanyEventsYet": "Подій ще немає. Натисніть «Створити подію», щоб додати першу.",
+    "company": {
+      "createHint": "У вас ще немає компаній. Натисніть «Додати компанію», щоб почати організовувати події.",
+      "addNew": "Додати компанію",
+      "edit": "Редагувати компанію",
+      "name": "Назва компанії",
+      "contactEmail": "Контактний email",
+      "description": "Опис",
+      "location": "Місце",
+      "locationPlaceholder": "напр. Київ, Україна",
+      "logo": "Логотип",
+      "uploadLogo": "Завантажити логотип",
+      "create": "Створити компанію",
+      "creating": "Створення…",
+      "yourEvents": "Події компанії"
+    }
+  },
+  "tickets": {
+    "confirmed": "Оплата підтверджена! Ваш квиток нижче.",
+    "ticketNo": "Квиток №{{id}}",
+    "status": "Статус",
+    "paid": "Сплачено",
+    "purchased": "Придбано",
+    "backToTickets": "Мої квитки",
+    "viewEvent": "Переглянути подію"
+  },
+  "admin": {
+    "dashboard": "Панель керування",
+    "users": "Користувачі",
+    "events": "Події",
+    "totalUsers": "Всього користувачів",
+    "totalEvents": "Всього подій",
+    "ticketsSold": "Продано квитків",
+    "revenue": "Загальний дохід"
+  },
+  "common": {
+    "loading": "Завантаження…",
+    "error": "Щось пішло не так",
+    "cancel": "Скасувати",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "back": "Назад",
+    "next": "Далі →",
+    "prev": "← Назад",
+    "page": "{{page}} / {{total}}",
+    "close": "Закрити"
+  }
+}

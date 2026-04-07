@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "createEvent": "Create Event",
+    "admin": "Admin",
+    "signIn": "Sign in",
+    "joinFree": "Join free",
+    "signOut": "Sign out"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "google": "Continue with Google",
+      "noAccount": "No account?",
+      "createOne": "Create one free"
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Join thousands of event-goers",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "Min 8 characters",
+      "submit": "Create account",
+      "submitting": "Creating account…",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "subtitle": "Enter your email and we'll send a reset link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "sentTitle": "Reset link sent",
+      "sentBody": "If an account with that email exists, you'll receive a reset link shortly.",
+      "backToLogin": "Back to login"
+    },
+    "resetPassword": {
+      "title": "Set new password",
+      "subtitle": "Choose a strong password for your account.",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "passwordsMismatch": "Passwords do not match",
+      "invalidLink": "Invalid reset link.",
+      "requestNew": "Request a new one"
+    }
+  },
+  "events": {
+    "explore": "Explore Events",
+    "searchPlaceholder": "Search events…",
+    "resultsCount": "{{count}} events",
+    "noEvents": "No events found",
+    "noEventsHint": "Try adjusting your filters or search query.",
+    "formats": {
+      "conference": "Conference",
+      "lecture": "Lecture",
+      "workshop": "Workshop",
+      "fest": "Festival",
+      "other": "Other"
+    },
+    "themes": {
+      "business": "Business",
+      "politics": "Politics",
+      "psychology": "Psychology",
+      "technology": "Technology",
+      "science": "Science",
+      "entertainment": "Entertainment",
+      "other": "Other"
+    },
+    "filters": {
+      "toggle": "Filters",
+      "format": "Format",
+      "theme": "Theme",
+      "dateRange": "Date range",
+      "from": "From",
+      "to": "To",
+      "clearAll": "Clear all filters",
+      "all": "All"
+    },
+    "sort": {
+      "dateSoonest": "Date: soonest first",
+      "dateLatest": "Date: latest first",
+      "priceLow": "Price: low to high",
+      "priceHigh": "Price: high to low",
+      "titleAZ": "Title: A–Z"
+    },
+    "card": {
+      "free": "Free",
+      "soldOut": "Sold out",
+      "ticketsLeft": "{{count}} left"
+    },
+    "detail": {
+      "notFound": "Event not found.",
+      "about": "About",
+      "comments": "Comments",
+      "attendees": "Attendees",
+      "buyTicket": "Buy ticket",
+      "registerFree": "Register free",
+      "soldOut": "Sold out",
+      "processing": "Processing…",
+      "promoCode": "Promo code",
+      "apply": "Apply",
+      "discountApplied": "{{percent}}% discount applied",
+      "promoInvalid": "Invalid or expired code",
+      "similar": "Similar events",
+      "organizer": "Organizer",
+      "followOrganizer": "+ Follow organizer",
+      "followingOrganizer": "Following organizer",
+      "subscribeUpdates": "Subscribe to updates",
+      "subscribedUpdates": "Subscribed to updates",
+      "ticketsLeft": "{{sold}} of {{max}} tickets left",
+      "location": "Location",
+      "addToCalendar": "Add to Calendar",
+      "commentPlaceholder": "Share your thoughts about this event…",
+      "postComment": "Post comment",
+      "noComments": "No comments yet",
+      "noCommentsHint": "Be the first to share your thoughts.",
+      "noAttendees": "No attendees yet",
+      "noAttendeesHint": "Be the first to grab a ticket!"
+    }
+  },
+  "profile": {
+    "settings": "Profile settings",
+    "myEvents": "My Events",
+    "myTickets": "My Tickets",
+    "notifications": "Notifications",
+    "myCompany": "My Company",
+    "saveChanges": "Save changes",
+    "saving": "Saving…",
+    "updated": "Profile updated successfully",
+    "changePhoto": "Change photo",
+    "removePhoto": "Remove photo",
+    "removePhotoConfirm": "Remove current profile photo?",
+    "showName": "Show my name in event attendee lists",
+    "markAllRead": "Mark all read",
+    "allCaughtUp": "All caught up!",
+    "noNotificationsYet": "No notifications yet.",
+    "noEventsYet": "No events yet",
+    "noEventsHint": "Buy a ticket to see your events here.",
+    "noTicketsYet": "No tickets yet",
+    "noTicketsHint": "Purchase a ticket to an event to see it here.",
+    "resendEmail": "Send to email",
+    "resendEmailSent": "Sent!",
+    "deleteEvent": "Delete event",
+    "deleteEventConfirm": "Delete event \"{{title}}\"? This cannot be undone.",
+    "deleteCompany": "Delete company",
+    "deleteCompanyConfirm": "Delete company \"{{name}}\"? All company events will also be deleted.",
+    "ticketStatus": {
+      "active": "Active",
+      "used": "Used",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "noCompanyEventsYet": "No events yet. Click \"Create Event\" to add your first one.",
+    "company": {
+      "createHint": "You don't have any companies yet. Click \"Add Company\" to start organizing events.",
+      "addNew": "Add company",
+      "edit": "Edit company",
+      "name": "Company name",
+      "contactEmail": "Contact email",
+      "description": "Description",
+      "location": "Location",
+      "locationPlaceholder": "e.g. Kyiv, Ukraine",
+      "logo": "Logo",
+      "uploadLogo": "Upload logo",
+      "create": "Create company",
+      "creating": "Creating…",
+      "yourEvents": "Company events"
+    }
+  },
+  "tickets": {
+    "confirmed": "Payment confirmed! Your ticket is below.",
+    "ticketNo": "Ticket #{{id}}",
+    "status": "Status",
+    "paid": "Paid",
+    "purchased": "Purchased",
+    "backToTickets": "My Tickets",
+    "viewEvent": "View Event"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "events": "Events",
+    "totalUsers": "Total Users",
+    "totalEvents": "Total Events",
+    "ticketsSold": "Tickets Sold",
+    "revenue": "Total Revenue"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next →",
+    "prev": "← Prev",
+    "page": "{{page}} / {{total}}",
+    "close": "Close"
+  }
+}

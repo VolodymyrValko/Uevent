@@ -1,0 +1,168 @@
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  transition: all var(--transition);
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &--primary {
+    background: var(--color-accent);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(233, 69, 96, 0.3);
+    &:hover:not(:disabled) {
+      background: var(--color-accent-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 24px rgba(233, 69, 96, 0.45);
+    }
+    &:active { transform: translateY(0); }
+  }
+
+  &--secondary {
+    background: var(--color-surface-2);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    &:hover:not(:disabled) {
+      background: var(--color-surface);
+      border-color: rgba(255,255,255,0.15);
+    }
+  }
+
+  &--ghost {
+    background: transparent;
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    &:hover:not(:disabled) {
+      color: var(--color-text);
+      border-color: rgba(255,255,255,0.2);
+    }
+  }
+
+  &--danger {
+    background: rgba(220, 38, 38, 0.15);
+    color: #f87171;
+    border: 1px solid rgba(220, 38, 38, 0.3);
+    &:hover:not(:disabled) {
+      background: rgba(220, 38, 38, 0.25);
+      border-color: rgba(220, 38, 38, 0.5);
+    }
+  }
+
+  &--sm { padding: 8px 16px; font-size: 0.8rem; }
+  &--lg { padding: 16px 32px; font-size: 1rem; }
+  &--full { width: 100%; }
+  &--loading { pointer-events: none; opacity: 0.7; }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &__label {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  &__input,
+  &__textarea,
+  &__select {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-text);
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    transition: border-color var(--transition);
+    width: 100%;
+    outline: none;
+
+    &::placeholder { color: var(--color-text-muted); }
+    &:focus { border-color: var(--color-accent); }
+    &--error { border-color: var(--color-error); }
+  }
+
+  &__textarea { resize: vertical; min-height: 100px; }
+
+  &__error {
+    font-size: 0.8rem;
+    color: var(--color-error);
+  }
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(255,255,255,0.12);
+  }
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  &--conference { background: rgba(108,99,255,0.2); color: #a09aff; }
+  &--lecture    { background: rgba(0,180,216,0.2);  color: #67d4f0; }
+  &--workshop   { background: rgba(247,127,0,0.2);  color: #ffb347; }
+  &--fest       { background: rgba(233,69,96,0.2);  color: #ff8099; }
+  &--other      { background: rgba(122,122,154,0.2); color: #9a9abf; }
+  &--free       { background: rgba(45,212,160,0.2); color: #2dd4a0; }
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.spinner {
+  width: 40px; height: 40px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto;
+}
+
+.page-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  color: var(--color-text-muted);
+
+  &__icon { font-size: 3rem; margin-bottom: 16px; }
+  &__title { font-family: var(--font-display); font-size: 1.4rem; color: var(--color-text); margin-bottom: 8px; }
+  &__body { font-size: 0.95rem; }
+}
